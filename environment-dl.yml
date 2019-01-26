@@ -88,17 +88,17 @@ dependencies:
 - widgetsnbextension
 - xz
 - zeromq
-- pytorch
+- pytorch>1.0
 - fastai
 - bcolz
 - prompt_toolkit
 - jupyterlab
 - autopep8
 - nvidia-ml-py3
+- torchvision
 #- pytest
 - pip:
   - python-dotenv
-  - torchvision
   - opencv-python
   - isoweek
   - pandas_summary
